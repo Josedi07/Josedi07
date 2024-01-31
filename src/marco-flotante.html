@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+
+    <style>
+        iframe{
+            width: 90%;
+            height: 85vh;
+            border: none;
+            margin-top: 50px;
+            
+        }
+        menu{
+            display: flex;
+            background-color: rgb(206, 205, 205);
+
+        }
+        menu li{
+            margin: 10px;
+            list-style: none;
+        }
+        menu li a{
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <menu>
+        <li><a href="../index.html" target="marco">Inicio</a></li>
+        <li><a href="./portfolio.html" target="marco">Portfolio</a></li>
+        <li><a href="./SEO.html" target="marco">SEO</a></li>
+        <li><a href="./tablas.html" target="marco">Tablas</a></li>
+        <li><a href="../doc/keyboard-shortcuts-windows.pdf" target="marco">Atajos</a></li>
+    </menu>
+    <iframe src="../index.html" name="marco"></iframe>
+    
+    <h1>Iframes externos</h1>
+
+    <menu>
+        <li><a href="https://www.youtube.com/embed/YlPk68ITnuM?si=3E3PsJwlqnqUXszP" target="marco-externo">YouTube</a></li>
+        <li><a href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24821.278848765447!2d-5.8654720000000005!3d38.9545984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1700822208226!5m2!1ses!2ses" target="marco-externo"> Google Maps</a></li>
+        
+    </menu>
+
+
+
+    <iframe name="marco-externo" src="https://www.youtube.com/embed/YlPk68ITnuM?si=3E3PsJwlqnqUXszP" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>

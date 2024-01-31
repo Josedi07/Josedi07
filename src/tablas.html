@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+
+
+    <style>
+        table, tr, td, th{
+            border: black 1px solid;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 1%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .dia{
+            background-color: mediumpurple;
+        }
+        .hora{
+            background-color: lightgray;
+        }
+        .montaje{
+            background-color:bisque;
+        }
+        .web{
+            background-color: azure;
+        }
+        .sor{
+            background-color: lightcoral;
+        }
+        .ser{
+            background-color: lightgreen;
+        }
+        .empresa{
+            background-color: lightgoldenrodyellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <a href="../index.html"><img src="../img/home.svg"></a>
+    <table>
+        <caption>Horario</caption>
+        <thead>
+            <tr class="dia">
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="hora">1ª Hora</td>
+                <td rowspan="2" class="ser">Servicios en Red</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td class="ser">Servicios en Red</td>
+                <td class="sor">Sistemas operativos en red</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+            </tr>
+            <tr>
+                <td class="hora">2º Hora</td>
+                <td class="sor">Sistemas operativos en red</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td class="empresa">Empresa</td>
+            </tr>
+            <tr class="hora">
+                <td colspan="6">Recreo</td>
+                
+            </tr>
+            <tr>
+                <td class="hora">3º Hora</td>
+                <td class="sor">Sistemas operativos en red</td>
+                <td class="empresa">Empresa</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td rowspan="2" class="web">Aplicaciones web</td>
+            </tr>
+            <tr>
+                <td class="hora">4º Hora</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td class="ser">Servicios en red</td>
+                <td class="web">Aplicaciones web</td>
+                <td class="ser">Servicios en red</td>
+
+            </tr>
+            <tr class="hora">
+                <td colspan="6" class="">Recreo</td>
+
+            </tr>
+            <tr>
+                <td class="hora">5º Hora</td>
+                <td class="montaje">Montaje y mantenmiento</td>
+                <td rowspan="2" class="web">Aplicaciones web</td>
+                <td rowspan="2" class="sor">Sistemas operativos en red</td>
+                <td class="ser">Servicios en red</td>
+                <td class="sor">Sistemas operativos en red</td>
+
+            </tr>
+            <tr>
+                <td class="hora">6º Hora</td>
+                
+                <td class="web">Aplicaciones web</td>
+                <td class="empresa">Empresa</td>
+                <td class="ser">Servicios en red</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="6" class="hora">IES Donoso Cortés</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

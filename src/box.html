@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+
+    <style>
+        *{  /* el asterisco hace referencia a todas las etiquetas */
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 3em ; /*1 em son 16px*/
+            font-size: 5vw;
+        }
+            h1 strong{
+                color: brown;
+            }
+            h1>strong{ /*Hijo directo*/
+                text-decoration: line-through;
+            }
+        header{
+            background-color: aquamarine;
+            width: 100vw;
+            height: 30vh;
+            position: relative;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        nav{
+            background-color: goldenrod;
+            width: 20vw;
+            height: 70vh;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 0px;
+
+            
+        }
+        main{
+            background-color: violet;
+            width: 80vw;
+            height: 70vh;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 20vw;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vamos a 
+            <p> 
+                <strong>maquetar</strong> un poquito 
+            </p>
+        </h1>
+        <strong>esto es importante</strong>
+
+    </header>
+    <nav>
+        <menu>
+            <img src="./img/logo.png">
+                <li><a href="./src/SEO.html" target="_blank">SEO</a></li>
+                <li><a href="./src/listas.html" target="_blank">Listas</a></li>
+                <li><a href="./src/cajas.html" target="_blank">Cajas</a></li>
+                <li><a href="./src/div.html" target="_blank">Divs</a></li>
+                <li><a href="./src/ejercicio.html" target="_blank">Ejercicio</a></li>
+                <li><a href="./src/estilos.html" target="_blank">Estilos</a></li>
+                <li><a href="./src/etiqueta-a.html" target="_blank">Etiqueta a</a></li>
+                <li><a href="./src/portfolio.html" target="_blank">Portfolio</a></li>
+                <li><a href="./src/tablas.html" target="_blank">Tablas</a></li>
+        </menu>
+    </nav>
+        <a href="../index.html"><img src="../img/home.svg" class="centrar"></a>
+    
+    <main>
+        <p>Contenido principal</p>
+
+    </main>
+</body>
+</html>

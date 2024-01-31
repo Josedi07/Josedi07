@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+    <link rel="icon" href="./Img/logo-pagina.png">
+
+
+
+    <meta name="author" content="Josedi">
+    <meta name="Description" content="Mi portfolio">
+    <meta name="Keywords" content="portfolio, cv, web, desarrollo">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#FF5833">
+<style>
+
+    body{
+        background-color: rgb(0, 0, 55);
+        color: rgb(200, 100, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    header{
+        text-align: center;
+    }
+    
+    aside{
+        border: 1px beige solid;
+        background-color: rgb(0, 0, 40);
+        padding: 2%;
+        margin-top: 100px;
+        
+    }
+
+    hr{
+        width: 300px;
+    
+    }
+
+    nav{
+        background-color: rgb(200, 100, 255);
+        opacity: 95%;
+        position: sticky;
+        top: 0;
+    
+
+    }
+        nav img{
+            width: 100px;
+
+
+        }
+        nav menu{
+            display: inline-flex;
+            text-align: right;
+            list-style: none;
+        
+
+        }
+            nav menu li{
+                text-align: right;
+                margin: 10px;
+            
+            }
+                nav menu li a{
+                    text-decoration: none;
+                    color: rgb(20, 20, 70);
+                }
+   
+    main{
+        text-align: center;
+        background-color: rgb(0, 0, 40);
+        border: 1px black solid;
+    
+    }
+    section{
+        margin-top: 150px;
+    }
+    footer{
+        bottom: 0;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(0, 0, 40);
+        padding: 5px;
+        border: 1px black solid;
+        margin-top: 50px;
+
+    }
+
+    button{
+        background-color: pur;
+        padding: 1%;
+    
+        
+    }
+
+    .imagenredonda{
+        margin-top: 25px;
+        margin-bottom: 45px;
+        border-radius: 50%
+    
+
+    }
+
+
+
+
+
+</style>
+</head>
+
+<body>
+    <nav>
+        <img class="imagen" src="https://www.centrocomercialrosaleda.es/wp-content/uploads/2022/07/JD-SPORT-centro-comercial-rosaleda.png">
+            <menu>
+                <li><a href="#sobre-mi"> Sobre mi</a></li>
+                <li><a href="#mis-trabajos"> Mis trabajos</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="mailto: jdsanchez@educarex.es" target="_blank" title="Enviar un correo">Contáctame</a></li>
+            </menu>
+    </nav>
+    
+    <header>
+        <a href="../index.html"><img src="../img/home.svg" style="background-color: white;"></a>
+        <h1>Mi portfolio</h1>
+
+        <img src="../Img/myAvatar.png" class="imagenredonda"><br>
+    </header>
+
+   
+    <main>
+        <section>
+            <h2 id="sobre-mi">Sobre mi</h2>
+            <hr>
+            <p>&iexcl; Hola mundo, mi nombre es Josedi &excl;<p>
+            <p>Si quieres conocerme mejor descarga mi CV</p>
+           
+            <button><a href="../doc/CV.pdf" download="">Mi CV</a></button>
+            
+        </section>
+        
+        <section>
+            <h2 id="mis-trabajos">Mis trabajos</h2>
+            <hr>
+            <p>Actualmente no cuento con ninguna demostración, proximamente serán adjuntadas algunas de ellas.</p>
+        </section>
+        <section>
+            <h2 id="tecnologias">Tecnologías</h2>
+            <hr>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" title="Haz click para saber más sobre html"><img src="../Img/html5.svg"></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" title="Haz click para saber más sobre css"><img src="../Img/css.svg"></a>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" title="Haz click para saber más sobre JavaScript"><img src="../Img/javascript.svg"></a>
+            
+        </section>
+        <aside>
+            <a href="https://eldiariodejosedi.blogspot.com/" target="_blank">Mi Blog</a>
+        </aside>
+    </main>
+    
+    <footer>
+        <a href="https://www.instagram.com" target="_blank" title="Click para ir a Instagram"><img src="../Img/instagram.svg"></a>
+        <a href="https://twitter.com/home?lang=es" target="_blank" title="Click para ir a twitter"><img src="../Img/twitter.svg"></a>
+        <p>&copy; 2023 Desarrollado por José Diego Sánchez Moro</p>
+        
+    </footer>
+</body>
+</html>
